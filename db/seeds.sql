@@ -1,18 +1,18 @@
 -- Creating new rows containing initial burger data
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("Angus Burger",true);
+VALUES ("Bison Burger",true);
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("Hamburger",false);
+VALUES ("All American Burger",false);
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("Chili Burger",false);
+VALUES ("Double Cheeseburger",false);
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("Bacon Cheeseburger",true);
+VALUES ("Turkey Cheeseburger",true);
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("Butter Burger",false);
+VALUES ("Mushroom Burger",false);
 
 -- Verifying that the data was inserted in the table by pulling everything from it
 SELECT * FROM burgers;
