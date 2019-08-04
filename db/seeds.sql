@@ -1,4 +1,4 @@
--- Creating new rows containing initial burger data
+-- Creating initial burgers
 INSERT INTO burgers (burger_name, devoured)
 VALUES ("Bison Burger",true);
 
@@ -14,5 +14,5 @@ VALUES ("Turkey Cheeseburger",true);
 INSERT INTO burgers (burger_name, devoured)
 VALUES ("Mushroom Burger",false);
 
--- Verifying that the data was inserted in the table by pulling everything from it
+
 SELECT * FROM burgers;
